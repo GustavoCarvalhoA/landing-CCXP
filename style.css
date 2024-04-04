@@ -235,3 +235,60 @@ cursor: pointer;
             margin-top: 80px;
         }
 }
+/*Tela de 800px*/
+
+@media only screen and (max-width: 800px){
+    #logo{
+        width: 150px;
+     }
+     #container{
+        margin-top: 80px;
+    }
+    #texto h1{
+        font-size: 30px;
+    }
+    #texto h2{
+        font-size: 20px;
+    }
+    #texto p{
+        font-size: 15px;
+    }
+    #video h2{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 20px;}
+    
+    #video2{
+        width: 450px;
+        }
+    .timer{
+       font-size: 20px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #menu-compra{
+        margin-left: 30px;
+        padding-bottom: 15px;
+    }
+    
+    #menu-compra h1{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
+    
+    
+        #botão button{
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+        cursor: pointer;
+        }
+        #botão{
+            margin-top: 70px;
+        }
+    }
+
