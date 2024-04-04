@@ -1,0 +1,237 @@
+/*Tela de mais de 1200px*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#logo{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 40px;
+}
+#logo:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+#container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 49%;
+    margin-top: 127px;
+}
+#texto{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #514988;
+    padding-bottom: 60px;
+    margin-right: 15px;
+}
+#texto h1{
+    font-size: 70px;
+    color: black;
+    margin-bottom: 20px;
+}
+#texto h2{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+#texto p{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#video{
+    height: 50%;
+    padding-top: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+#video h2{
+    font-size: 30px;
+    color: #E33881;
+    margin-bottom: 20px;
+}
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 12vw;
+    color: #514988;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+#container2{
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+    
+}
+.card:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+#menu-compra{
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+#menu-compra h1{
+color: #FFD900;
+font-size: 27px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#botão button{
+    width: 500px;
+height: 120px;
+border-radius: 20px;
+border: 0;
+background-color: #514988;
+font-size: 42px;
+font-weight: 700;
+color: #FFFFFF;
+cursor: pointer;
+}
+#botão button:hover{
+    color: #FFD900;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 20px #2a2646;
+    opacity: 0.9;
+}
+#botão{
+    margin-top: 90px;
+}
+
+/*Tela de até 600px*/
+@media only screen and (max-width: 600px){
+    #logo{
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+     }
+     #container{
+        margin-top: 30px;
+    }
+    #texto{
+        text-align: center;
+        margin-right: 15px;
+
+   }
+   #texto h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#texto h2{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#texto p{
+    font-size: 10px;
+}
+#video2{
+    width: 200px;
+}
+#video{
+    height: 50%;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+#video h2{
+    font-size: 10px;
+    margin-bottom: 20px; 
+}
+.timer{
+    grid-auto-columns: 12vw;
+    font-size: 10px;
+}
+.card{
+    width: 50px;
+    height: 50px;
+}
+#menu-compra{
+    margin-left: 30px;
+    padding-bottom: 1px;
+}
+#menu-compra h1{
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    #botão button{
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 10px;
+    }
+    #botão{
+        margin-top: 50px;
+    }
+}
+
+/*Tela de até 1200px*/
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    #logo{
+        width: 150px;
+     }
+     #container{
+        margin-top: 85px;
+    }
+    #texto h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #texto h2{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    #texto p{
+        font-size: 20px;
+    }
+    #video h2{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;}
+
+    #video2{
+        width: 550px;
+        }
+    .timer{
+       font-size: 25px;
+    }
+
+    #menu-compra{
+        margin-left: 30px;
+        padding-bottom: 15px;
+    }
+    
+    #menu-compra h1{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
+    
+    
+        #botão button{
+        width: 300px;
+        height: 90px;
+        font-size: 30px;
+        cursor: pointer;
+        }
+        #botão{
+            margin-top: 80px;
+        }
+}
